@@ -11,3 +11,5 @@ This project runs in a Linux environment and may do so too on Mac. A conda envir
     conda env create -f binder/environment.yml
 
 ![example event parameter](https://github.com/munch-group/analysis-template/actions/workflows/quarto-publish.yml/badge.svg?event=push)
+
+cut -c-1 data/y-reliable-snp-index-hg38.csv | sort | uniq -c
